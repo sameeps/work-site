@@ -10,8 +10,38 @@
     color: white;
 }
 
+.subtext {
+  margin: 0px;
+}
+
+.hyperlink-container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 5px;
+}
+
 .email {
     color: #FF2DD1;
+}
+
+a:link {
+  color: #00D9FF;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #C0FF61;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF2DD1;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #C0FF61;
+  text-decoration: underline;
 }
 
 body {
