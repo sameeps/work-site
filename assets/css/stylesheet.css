@@ -1,17 +1,29 @@
-.greeting {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
+.default-text {
     font-family: 'Bitcount Prop Single', sans-serif;
     text-align: center;
     color: white;
 }
 
+.greeting {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
 .subtext {
   margin: 0px;
+}
+
+.simon {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .hyperlink-container {
